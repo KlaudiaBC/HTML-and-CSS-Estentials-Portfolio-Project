@@ -16,29 +16,13 @@ h2 {
     float: left;
     font-size: 200%;
     margin-left: 50px;
-}
-
-#menu {
-    font-size: 105%;
-}
-
-#menu, #logo {
     line-height: 60px;
 }
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu li:hover {
-    font-size: 130%;
-}
-
-#menu a {
-    text-decoration: none;
-    color: whitesmoke;
+.navbar-brand
+{
+  font-size: 300%;
+  margin: 0.5rem;
 }
 
 .hero-image {
@@ -47,6 +31,10 @@ h2 {
     object-fit: cover;
     position: relative;
     overflow: hidden;
+}
+
+.introduction {
+    display: inline-block;
 }
 
 /* introduction */
