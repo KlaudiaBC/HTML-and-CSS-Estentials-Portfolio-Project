@@ -5,7 +5,7 @@
 body {
     background-color: #062950;
     font-family: 'Montserrat', sans-serif;
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 h2 {
@@ -27,21 +27,36 @@ h2 {
 
 .hero-image {
     width: 100%;
-    height: 500px;
+    height: 400px;
     object-fit: cover;
     position: relative;
     overflow: hidden;
 }
-
 
 /* insights */
 img {
     width: 300px;
     height: 200px;
     object-fit: cover;
+    padding: 00.5rem;
   }
 
 #large-heading {
     size: 200%;
     opacity: 0.2;
+}
+
+#socialmedia {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    height: 50px;
+    margin: 0.5rem;
+}
+
+#copyright {
+    text-align: right;
 }
