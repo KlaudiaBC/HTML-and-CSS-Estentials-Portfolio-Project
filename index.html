@@ -63,8 +63,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="/assets/images/pexels-pixabay-289586.jpg" class="d-block w-100"
-            alt="girl in the pub">
+          <img src="/assets/images/pexels-pixabay-289586.jpg" class="d-block w-100" alt="girl in the pub">
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>
@@ -89,8 +88,8 @@
         <div class="row">
           <div class="col">
             <div class="p-3 border">
-              <img class="pr-0 pr-lg-3 pb-3 px-0 col-12 col-lg-4"
-                src="assets/images/pexels-david-cassolato-818563.jpg" alt="man with lights" style="float: left">
+              <img class="pr-0 pr-lg-3 pb-3 px-0 col-12 col-lg-4 float-left"
+                src="assets/images/pexels-david-cassolato-818563.jpg" alt="man with lights">
               <h2 class="large">Alpha mode</h2>
               <p>Our brain constantly produces waves of energy, which can be measured. Scientists stand out 4 types of
                 brain activity based on those measures. Amount of waves is higher when we are awake and active and much
@@ -113,7 +112,7 @@
           <div class="col">
             <div class="p-3 border">
               <p>
-                <img class="pl-0 pl-lg-3 pb-3 px-0 col-12 col-lg-4"
+                <img class="pl-0 pl-lg-3 pb-3 px-0 col-12 col-lg-4 float-right"
                   src="assets/images/pexels-cottonbro-4507247.jpg" alt="woman with leaf">
               </p>
               <h2 class="large">Breath</h2>
@@ -134,7 +133,8 @@
           <div class="col">
             <div class="p-3 border">
               <p>
-                <img class="pr-0 pr-lg-3 pb-3 px-0 col-12 col-lg-4" src="/assets/images/pexels-mustafa-ezz-638791.jpg" alt="eye">
+                <img class="pr-0 pr-lg-3 pb-3 px-0 col-12 col-lg-4 float-left"
+                  src="/assets/images/pexels-mustafa-ezz-638791.jpg" alt="eye">
               </p>
               <h2 class="large">Clarity</h2>
               <p>Once you take a short time during the day to give your body and mind a rest, you will also become more
@@ -152,69 +152,49 @@
   <br>
 
   <section id="joinus">
-    <div>
-      <fieldset id="user-form">
-        <legend>Join our meditation sessions online!</legend>
-        <form action="#">
-          <label for="yourname">
-            My name: <input id="name" placeholder="Enter your name" required />
-          </label>
-          <label for="myemail">
-            My email: <input type="email" id="email" placeholder="Enter your email" required />
-          </label>
-          <input type="checkbox" id="gdpr" required>
-          <label for="gdpr">I agree with Terms and Conditions</label><br>
-          <input type="submit" valid="Send Message" />
-        </form>
-      </fieldset>
-      <div>
-        <br>
-        <div id="inspiredby">
-          <h5>Inspired by:</h5>
-          <ul>
-            <li>
-              <a href="https://www.mindful.org/" target="_blank">Mindful.org</a>
-            </li>
-            <li>
-              <a href="https://mindworks.org" target="_blank">Mindworks.org</a>
-            </li>
-            <li>
-              <a href="https://www.headspace.com/" target="_blank">Headspace.com</a>
-            </li>
-            <li>
-              <a href="https://www.mayoclinic.org/" target="_blank">Mayoclinic.org</a>
-            </li>
-          </ul>
+    <form>
+      <legend>Join our meditation sessions online!</legend>
+      <div class="form-group col-12 col-lg-4 p-1">
+        <label for="your name">My name:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group col-12 col-lg-4 p-1">
+        <label for="formGroupExampleInput2">My e-mail:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your email" required>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1" required>I agree for the Terms and Conditions</label>
         </div>
-  </section>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+    </form>
 
-  <section class=socialmedia>
-    <h2>Follow us:</h2>
-    <div id="socialmedia">
-      <a class="btn btn-primary btn-lg btn-floating" style="background-color: rgb(63, 63, 63);"
-        href="https://www.facebook.com/" role="button" target="_blank">
-        <i class="fab fa-facebook"></i></a>
-      <a class="btn btn-primary btn-lg btn-floating" style="background-color: rgb(63, 63, 63);"
-        href="https://www.instagram.com/" role="button" target="_blank">
-        <i class="fab fa-instagram"></i></a>
-      <a class="btn btn-primary btn-lg btn-floating" style="background-color: rgb(63, 63, 63);"
-        href="https://www.youtube.com/" role="button" target="_blank">
-        <i class="fab fa-youtube"></i></a>
-    </div>
-  </section>
+    <br>
+    <div class=socialmedia>
+      <h2>Follow us:</h2>
+        <a class="btn btn-primary btn-lg btn-floating" style="background-color: rgb(63, 63, 63);"
+          href="https://www.facebook.com/" role="button" target="_blank">
+          <i class="fab fa-facebook"></i></a>
+        <a class="btn btn-primary btn-lg btn-floating" style="background-color: rgb(63, 63, 63);"
+          href="https://www.instagram.com/" role="button" target="_blank">
+          <i class="fab fa-instagram"></i></a>
+        <a class="btn btn-primary btn-lg btn-floating" style="background-color: rgb(63, 63, 63);"
+          href="https://www.youtube.com/" role="button" target="_blank">
+          <i class="fab fa-youtube"></i></a>
+   </div>
 
-  <script src="https://kit.fontawesome.com/b2f7b60088.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-    crossorigin="anonymous"></script>
+  </section>
+    <br>
+
+    <script src="https://kit.fontawesome.com/b2f7b60088.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"></script>
+
   <footer>
-    <div id="copyright">
-      <p>Copyright reserved. KBC</p>
-    </div>
-  </footer>
-</body>
-
+<p>Copyright reserved. KBC 2022</p>
+   </footer>
+  </body>
 </html>

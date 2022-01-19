@@ -5,11 +5,12 @@
 body {
     background-color: #062950;
     font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
+    color: rgba(247, 238, 238, 0.781);
 }
 
 h2 {
     font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(243, 168, 7);
 }
 
 #logo {
@@ -21,23 +22,30 @@ h2 {
 
 .navbar-brand
 {
-  font-size: 300%;
+  font-size: 200%;
   margin: 0.5rem;
 }
 
 
 /* insights */
 img {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
     object-fit: cover;
   }
 
+p {
+    text-align: justify;
+}
 
 .large {
-    size: 200%;
-    opacity: 0.2;
+    size: large;
 }
+
+.submit {
+    margin: 1rem;
+}
+
 
 .socialmedia {
     text-align: center;
@@ -45,11 +53,7 @@ img {
 
 /* footer */
 footer {
-    background-color: black;
-    height: 50px;
-    margin: 0.5rem;
-}
-
-#copyright {
-    text-align: right;
+    background-color: rgb(109, 108, 108);
+    height: 30px;
+    width: 100%;
 }
