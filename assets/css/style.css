@@ -8,6 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: lightcyan;
 }
+
 header {
   background-color: #123146;
 }
@@ -28,7 +29,6 @@ h2, legend {
   font-size: 200%;
   margin: 0.5rem;
 }
-
 
 /* our path */
 img {
@@ -61,13 +61,16 @@ p {
 /* section join us */
 
 #joinus {
-  margin: 5rem;
+    margin: auto;
+    width: 70%;
+}
+
+.card {
+  background-color: lightgrey;
+  color: #123146;
 }
 
 /* footer */
-footer {
-  background-color: grey;
-}
 
 footer a {
   color: #fff;
@@ -84,8 +87,6 @@ footer a:hover {
   padding: 10px;
   border-top: 1px solid #FFFFFF;
 }
-
-
 
 .float-right {
     float: right;
