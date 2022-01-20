@@ -3,14 +3,18 @@
 
 
 body {
-    background-color: #062950;
+    background-color: -webkit-linear-gradient(59deg, #3A6073, #123146);
+    background: linear-gradient(59deg, #3A6073, #123146);;
     font-family: 'Montserrat', sans-serif;
-    color: rgba(247, 238, 238, 0.781);
+    color: lightcyan;
+}
+header {
+  background-color: #123146;
 }
 
-h2 {
+h2, legend {
     font-family: 'Merriweather Sans', sans-serif;
-    color: rgb(243, 168, 7);
+    color: rgb(206, 134, 0);
 }
 
 #logo {
@@ -20,14 +24,13 @@ h2 {
     line-height: 60px;
 }
 
-.navbar-brand
-{
+.navbar-brand {
   font-size: 200%;
   margin: 0.5rem;
 }
 
 
-/* insights */
+/* our path */
 img {
     width: 150px;
     height: 200px;
@@ -38,22 +41,76 @@ p {
     text-align: justify;
 }
 
-.large {
-    size: large;
+#ourpath {
+  margin: auto;
+  width: 70%;
 }
 
-.submit {
-    margin: 1rem;
-}
+.featurette-divider {
+    margin: 2rem;
+    background-color: #6eb2d1;
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 200;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
 
+/* section join us */
 
-.socialmedia {
-    text-align: center;
+#joinus {
+  margin: 5rem;
 }
 
 /* footer */
 footer {
-    background-color: rgb(109, 108, 108);
-    height: 30px;
-    width: 100%;
+  background-color: grey;
 }
+
+footer a {
+  color: #fff;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #6eb2d1;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+
+
+.float-right {
+    float: right;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 5rem;
+    }
+  }
