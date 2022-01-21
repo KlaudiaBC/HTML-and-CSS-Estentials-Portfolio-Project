@@ -13,11 +13,6 @@ header {
   background-color: #123146;
 }
 
-h2, legend {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: rgb(206, 134, 0);
-}
-
 #logo {
     float: left;
     font-size: 200%;
@@ -30,12 +25,25 @@ h2, legend {
   margin: 0.5rem;
 }
 
-/* our path */
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: rgb(206, 134, 0);
+}
+
+.large {
+  text-transform: capitalize;
+  text-align: center;
+  size: large;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: rgb(206, 134, 0);
+}
+
+/* section our path */
 img {
     width: 150px;
     height: 200px;
     object-fit: cover;
-  }
+  } 
 
 p {
     text-align: justify;
@@ -44,6 +52,7 @@ p {
 #ourpath {
   margin: auto;
   width: 70%;
+  padding-top: 2rem;
 }
 
 .featurette-divider {
@@ -51,15 +60,14 @@ p {
     background-color: #6eb2d1;
   }
   
-  /* Thin out the marketing headings */
-  .featurette-heading {
+.featurette-heading {
     font-weight: 200;
     line-height: 1;
     letter-spacing: -.05rem;
   }
 
-/* section join us */
 
+/* section join us */
 #joinus {
     margin: auto;
     width: 70%;
@@ -71,7 +79,6 @@ p {
 }
 
 /* footer */
-
 footer a {
   color: #fff;
   transition-duration: 0.2s;
@@ -94,8 +101,7 @@ footer a:hover {
 
 
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+/* RESPONSIVE CSS */
 
 @media (min-width: 40em) {
     /* Bump up size of carousel content */
