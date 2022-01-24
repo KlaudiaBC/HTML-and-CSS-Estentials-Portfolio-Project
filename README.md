@@ -117,7 +117,9 @@ Testing also included different devices:
 - Lenovo TAB m10
 - Samsung Galaxy Note
 - Samsung Galaxy s20
+- 
 All the results are consistent.
+
 The features, which was taken into a testing:
 - check if the buttons works
 - check if images are displayed correctly
