@@ -1,7 +1,7 @@
 # HTML and CSS Estentials Portfolio 1 Project
 ## Welcome!
 
-![responsive design](workspace/HTML-and-CSS-Estentials-Portfolio-Project/assets/images/readme img/firstpic.jpg)
+![responsive design](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/firstpic.jpg)
 
 ### This is my Portfolio 1 Project regarding the Code Institute's Diploma in Software Development (E-commerce Applications).
 It is a single page website, which contains four independent sections and the navigation bar (sticky on top of the page) designated to make all of the components easily accessible.
@@ -46,7 +46,7 @@ The content is built via 4 separated sections:
 Wireframe project was designed for a full size screen (PC) but the project is responsive and can be displayed on every device.
 See the initial project in the Balsamiq Software:
 
-![wireframe project](balsamiq_wireframe_project1.jpg)
+![wireframe project](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/balsamiq_wireframe_project1.jpg)
 
 ## Layout
 ### Colour range
@@ -55,8 +55,6 @@ As mentioned before, the reason for a dark mode of the page is the growing popul
 Colour #123146 is a mixture of blue and grey. Those shades also have many emotional connotations:
 - dark blue is often recognized as a royal shade, often means reliable authority, loyalty and confidence
 - a horizontal rule brings a touch of light blue - calming, shooting colour, symbol of connection with a nature
-
-![colour pallete](colors.jpg)
 
 Additional colours:
 - Orange: a colour of positive energy, which is a main message of the page. It brings a light, breaks the boringness and bursts with youthfulness, energy, and happiness. Designers also believe that orange colour inspires creativity and uplift people’s moods.
@@ -73,7 +71,7 @@ Stages of implementation:
 - 17.01 - I have attached a bootstrap extension to a project and started an exchange of bootstrap components with the one I wrote by myself, first feature was a carousel on the top of the page.
 - 18.01 - I adjust a navigation bar with a bootstrap version and build a section 2. I found the information too long and detalic, therefore I format the text for shorter and added extra anchor tags, which could provide more information for users who want to know more. There was a white double border around each paragraph.
 
-![version before](findyou_img.jpg)
+![version before](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/findyou01_img.jpg)
 
 - 19.01 - Adjust footer into a bootstrap version, remove the borders from paragraphs because it was bringing too much confusion. Also adjust an input form into a bootstrap extension.
 - 20.01 - Adding styling and moving the elements inside a dom to achieve a clear and easily readable front-end layout. Also the video needed to be embedded and social media buttons in the footer had to be fixed (did not display the logos)
@@ -81,7 +79,7 @@ Stages of implementation:
 - 23.01 - The code was approved by the W3C validator. Unfortunately my Performance score was very low, therefore I decided to optimise the images.
 
 Before:
-![lighthouse score](lighthouse.jpg)
+![lighthouse score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/lighthouse.jpg)
 
 - 24.01 - I realised that the names for my classes are not specific enough and changed them to suit future implementations. I also reduced the amount of css written over an ID's of the elements. Instead I added a class to the element, thanks to what I can use the particular css styling on other element by attaching the particular class to this element. The pictures were still too big therefore I resized them.
 
@@ -103,7 +101,7 @@ Before:
 
 ## Testing:
 - W3C validator:
-![W3C validator score](w3c_validator.jpg)
+![W3C validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/w3c_validator.jpg)
 
 - W3C CSS validator:
-![W3C CSS validator score](w3c_css_validator.jpg)
+![W3C CSS validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/w3c_css_validator.jpg)
