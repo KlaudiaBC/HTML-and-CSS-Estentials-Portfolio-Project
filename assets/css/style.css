@@ -13,6 +13,10 @@ header {
   background-color: #123146;
 }
 
+p {
+  text-align: justify;
+}
+
 #logo {
     float: left;
     font-size: 200%;
@@ -25,31 +29,47 @@ header {
   margin: 0.5rem;
 }
 
-h2 {
-  font-family: 'Merriweather Sans', sans-serif;
-  color: rgb(206, 134, 0);
-}
-
-.large {
+.h2-orange {
   text-transform: capitalize;
   text-align: center;
   size: large;
   font-family: 'Merriweather Sans', sans-serif;
   color: rgb(206, 134, 0);
+  padding-bottom: 2rem;
 }
 
-/* section our path */
-img {
-    width: 150px;
-    height: 200px;
+/* section 1 home */
+.carousel-item {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* section 2 our path */
+.featurette-image {
+  width: 240px;
+  height: auto;
+}
+
+.featurette-image.float-left {
+  padding-left: 0;
+  padding-right: .5rem;
+  padding-bottom: .5rem;
+}
+
+.featurette-image.float-right {
+  padding-right: 0;
+  padding-left: .5rem;
+  padding-bottom: .5rem;
+}
+
+.featurette-image img {
+    width: 100%;
+    height: auto;
     object-fit: cover;
   } 
 
-p {
-    text-align: justify;
-}
-
-#ourpath {
+.featurette {
   margin: auto;
   width: 70%;
   padding-top: 2rem;
@@ -64,14 +84,11 @@ p {
     font-weight: 200;
     line-height: 1;
     letter-spacing: -.05rem;
+    color: rgb(206, 134, 0);
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 1rem;
   }
 
-
-/* section join us */
-#joinus {
-    margin: auto;
-    width: 70%;
-}
 
 .card {
   background-color: lightgrey;
@@ -95,11 +112,6 @@ footer a:hover {
   border-top: 1px solid #FFFFFF;
 }
 
-.float-right {
-    float: right;
-}
-
-
 
 /* RESPONSIVE CSS */
 
@@ -114,10 +126,19 @@ footer a:hover {
     .featurette-heading {
       font-size: 50px;
     }
+
+    .featurette-image {
+      width: 100%;
+    }
+    
   }
   
   @media (min-width: 62em) {
     .featurette-heading {
-      margin-top: 5rem;
+      margin-top: 2rem;
+    }
+    
+    .featurette-image {
+      width: 100%;
     }
   }
