@@ -1,4 +1,4 @@
-# HTML and CSS Estentials Portfolio 1 Project
+# HTML and CSS Essentials Portfolio 1 Project
 ## Welcome!
 
 ![responsive design](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/firstpic.jpg)
@@ -23,7 +23,8 @@ The theme of the website is meditation and mental self-improvement. Page is desi
 There are several design practises to make a page easy to read and accessible:
 - easy navigation - navbar sticked to the top of the page
 - formatted amount of information with the possibility of learning more by clicking on anchor tags attached to particular positions
-- important information formatted as bold- included short video tutorial for beginners
+- important information formatted as bold
+- included short video tutorial for beginners
 - colour contrast- dark background as the response to latest web design fashion trends (see more in colour layout)
 
 ### Scope Plane:
@@ -69,7 +70,7 @@ Stages of implementation:
 - 15.01 - I have started this project from the very basic structure of HTML and CSS.
 - 16.01 - First version included: nested lists, input form, tabel (with times of meetings).
 - 17.01 - I have attached a bootstrap extension to a project and started an exchange of bootstrap components with the one I wrote by myself, first feature was a carousel on the top of the page.
-- 18.01 - I adjust a navigation bar with a bootstrap version and build a section 2. I found the information too long and detalic, therefore I format the text for shorter and added extra anchor tags, which could provide more information for users who want to know more. There was a white double border around each paragraph.
+- 18.01 - I adjusted a navigation bar with a bootstrap version and built a section 2. I found the information too long and detalic, therefore I format the text for shorter and added extra anchor tags, which could provide more information for users who want to know more. There was a white double border around each paragraph.
 
 ![version before](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/findyou01_img.jpg)
 
@@ -95,11 +96,36 @@ Before:
 - Code Institute course materials, walktroughts and mentor support
 - Code Institute Slack Community
 - Following a tutorials by Mosh and Scrimba
-- W3C schools
+- W3schools
 - Stack Overflow
 - Pexels (for images)
 
+## Deployment:
+
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository - go to "Settings" Button.
+3. Scroll down the Settings page and locate the "GitHub Pages" Section.
+4. Click the dropdown button called "None" and select "Master Branch".
+5. The page will automatically refresh and provide you with a link to the "GitHub Pages" deploying your project in the live-view.
+
 ## Testing:
+Tests have been performed on the: Firefox, Internet Explorer, Chrome and Safari.
+Testing also included different devices:
+- iPhone 8
+- Lenovo TAB m10
+- Samsung Galaxy Note
+- Samsung Galaxy s20
+All the results are consistent.
+The features, which was taken into a testing:
+- check if the buttons works
+- check if images are displayed correctly
+- check if the anchor tags are opening in new tab
+- check if the social media buttons are working
+- check if the submit button gives user a feedback
+- check if the attached video is working
+
 - W3C validator:
 ![W3C validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/w3c_validator.jpg)
 
