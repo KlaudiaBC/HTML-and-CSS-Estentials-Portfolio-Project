@@ -38,11 +38,13 @@ p {
 }
 
 /* section 1 home */
+
 .carousel-item {
   height: 400px;
   width: 100%;
   overflow: hidden;
 }
+
 
 /* section 2 our path */
 .featurette-image {
@@ -70,8 +72,8 @@ p {
 
 .featurette {
   margin: auto;
-  width: 70%;
-  padding-top: 2rem;
+  width: 100%;
+  padding-top: 1rem;
 }
 
 .featurette-divider {
@@ -81,6 +83,7 @@ p {
   
 .featurette-heading {
     font-weight: 200;
+    font-size: 300%;
     line-height: 1;
     letter-spacing: -.05rem;
     color: rgb(206, 134, 0);
@@ -108,8 +111,12 @@ footer a:hover {
 
 .copy {
   font-size: 12px;
-  padding: 10px;
+  padding: 1rem;
   border-top: 1px solid #FFFFFF;
+}
+
+.social-media {
+  padding: 1rem;
 }
 
 
@@ -126,9 +133,14 @@ footer a:hover {
     .featurette-heading {
       font-size: 50px;
     }
+
     .featurette-image {
       width: 100%;
       float: none !important;
+    }
+
+    .carousel-item {
+      height: 200px;
     }
   }
   
