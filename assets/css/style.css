@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&family=Montserrat:wght@500&display=swap');
 
 body {
@@ -39,28 +38,16 @@ p {
 /* section 1 home */
 
 .carousel-item {
-  height: 400px;
+  height: 200px;
   width: 100%;
   overflow: hidden;
 }
 
-
 /* section 2 our path */
+
 .featurette-image {
-  width: 240px;
-  height: auto;
-}
-
-.featurette-image.float-left {
-  padding-left: 0;
-  padding-right: .5rem;
-  padding-bottom: .5rem;
-}
-
-.featurette-image.float-right {
-  padding-right: 0;
-  padding-left: .5rem;
-  padding-bottom: .5rem;
+  width: 100%;
+  float: none !important;
 }
 
 .featurette-image img {
@@ -82,15 +69,17 @@ p {
   
 .featurette-heading {
     font-weight: 200;
-    font-size: 300%;
+    font-size: 50px;
     line-height: 1;
     letter-spacing: -.05rem;
     color: rgb(206, 134, 0);
     font-family: 'Merriweather Sans', sans-serif;
     font-display: swap;
     padding: 1rem;
+    margin-top: 2rem;
   }
 
+/* section 4 form */
 
 .card {
   background-color: lightgrey;
@@ -98,6 +87,7 @@ p {
 }
 
 /* footer */
+
 footer a {
   color: #fff;
   transition-duration: 0.2s;
@@ -121,35 +111,30 @@ footer a:hover {
 
 /* RESPONSIVE CSS */
 
-@media (max-width: 40em) {
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-      margin-bottom: 1.25rem;
-      font-size: 1.25rem;
-      line-height: 1.4;
-    }
+@media (min-width: 40em) { 
   
-    .featurette-heading {
-      font-size: 50px;
-    }
-
-    .featurette-image {
-      width: 100%;
-      float: none !important;
+  .featurette-image {
+    width: 240px;
+    float: auto;
     }
 
     .carousel-item {
-      height: 200px;
+    height: 400px;
     }
   }
   
-  @media (max-width: 62em) {
-    .featurette-heading {
-      margin-top: 2rem;
-    }
+  @media (min-width: 62em) {
+    .featurette-image.float-left {
+    float: left !important;
+    padding-right: .5rem;
+    padding-left: 0rem;
+    padding-bottom: .5rem;
+   }
     
-    .featurette-image {
-      width: 100%;
-      float: none !important;
-    }
+    .featurette-image.float-right {
+    float: right !important;
+    padding-right: 0;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+   }
   }
