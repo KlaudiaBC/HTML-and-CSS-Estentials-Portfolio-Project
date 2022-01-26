@@ -1,4 +1,4 @@
-# HTML and CSS Essentials Portfolio 1 Project
+# HTML and CSS Essentials: "FindYOU" Portfolio Project
 ## Welcome!
 
 ![responsive design](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/firstpic.jpg)
@@ -13,10 +13,13 @@ Link to the repository is [here](https://github.com/KlaudiaBC/HTML-and-CSS-Esten
 ## Content
 The theme of the website is meditation and mental self-improvement. Page is designed as a promotion of self-help that can be achieved through practises leading to control the mind. Nowadays, facing the corona crisis, there is more and more demand for therapy and psychological help. WHO calls depresion a common mental disorder and estimates that it can affect even 5% of the worldwide population therefore I believe the topic is very accurate to current social issues and following trends.
 
-## Production goals:
-- introduction to a basics of meditation
-- explanation of the positive effects of meditation
-- inspiration to join the community
+## User journey
+- as first the user see a home page with a featured carousel which indicates the theme of the website (wellness, meditation, self-care)
+- further: user is introduced with a basics of meditation
+- user can also find the explanation of the positive effects of meditation
+- the gallery of motivational pictures as well as a subscription form should provide the user with inspiration and encourage to join the community
+- the main goal of development is to ensure a pleasant and satisfying journey
+- a navigation bar sticked to the top of the page should provide easy access to any part of the page, user would like to go to
 
 ## UX Design:
 ### Strategy Plane:
@@ -82,7 +85,8 @@ Stages of implementation:
 Before:
 ![lighthouse score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/lighthouse.jpg)
 
-- 24.01 - I realised that the names for my classes are not specific enough and changed them to suit future implementations. I also reduced the amount of css written over an ID's of the elements. Instead I added a class to the element, thanks to what I can use the particular css styling on other element by attaching the particular class to this element. The pictures were still too big therefore I resized them.
+- 24.01 - I realised that the names for my classes are not specific enough and changed them to suit future implementations. I also reduced the amount of css written over an ID of the elements. Instead I added a class to the element, thanks to what I can use the particular css styling on other elements by attaching the particular class to this element. The pictures were still too big so I resized them. After a feedback of code review in my study group, I also added a feedback to a submit button and improved responsive design in footer (display was not correct on the mobile devices)
+- 26.01 - To make a project more correct with the standards, I had changed the css file and converted the main styling to a small size screen and applied media queries to the medium/large size screen. I also changed the format of pictures from .jpg to .webp following a suggestion of the Lighthouse report, which was supposed to improve my performance score but it did not change it much.
 
 ## Technologies used:
 - HTML5 and CSS3
