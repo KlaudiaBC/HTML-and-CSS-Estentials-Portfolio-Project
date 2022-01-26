@@ -6,10 +6,6 @@
 ### This is my Portfolio 1 Project regarding the Code Institute's Diploma in Software Development (E-commerce Applications).
 It is a single page website, which contains four independent sections and the navigation bar (sticky on top of the page) designated to make all of the components easily accessible.
 
-Link to the deployed website is [here](https://klaudiabc.github.io/HTML-and-CSS-Estentials-Portfolio-Project/)
-
-Link to the repository is [here](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project)
-
 ## Content
 The theme of the website is meditation and mental self-improvement. Page is designed as a promotion of self-help that can be achieved through practises leading to control the mind. Nowadays, facing the corona crisis, there is more and more demand for therapy and psychological help. WHO calls depresion a common mental disorder and estimates that it can affect even 5% of the worldwide population therefore I believe the topic is very accurate to current social issues and following trends.
 
@@ -72,21 +68,24 @@ I have used this project to deploy different features, play with code and exerci
 Stages of implementation:
 - 15.01 - I have started this project from the very basic structure of HTML and CSS.
 - 16.01 - First version included: nested lists, input form, tabel (with times of meetings).
-- 17.01 - I have attached a bootstrap extension to a project and started an exchange of bootstrap components with the one I wrote by myself, first feature was a carousel on the top of the page.
-- 18.01 - I adjusted a navigation bar with a bootstrap version and built a section 2. I found the information too long and detalic, therefore I format the text for shorter and added extra anchor tags, which could provide more information for users who want to know more. There was a white double border around each paragraph.
+- 17.01 - I have attached a bootstrap 4 extension to a project and started an exchange of bootstrap components with the one I wrote by myself. First feature was a carousel on the top of the page.
+- 18.01 - I adjusted a navigation bar with a bootstrap version and built a section 2. I found the information provided too long and detalic, therefore I format the text for shorter and added extra anchor tags, which could provide more information for users who want to know more. There was a white double border around each paragraph.
 
 ![version before](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/findyou01_img.jpg)
 
 - 19.01 - Adjust footer into a bootstrap version, remove the borders from paragraphs because it was bringing too much confusion. Also adjust an input form into a bootstrap extension.
-- 20.01 - Adding styling and moving the elements inside a dom to achieve a clear and easily readable front-end layout. Also the video needed to be embedded and social media buttons in the footer had to be fixed (did not display the logos)
-- 21.01 - After a consultation with my mentor, I decided to add an extra section, where I included a gallery with inspirational images. Also make sure the elements on the page are correctly displayed and there is enough contrast between colours. I ran the first tests which indicated basic mistakes in HTML (fixed).
+- 20.01 - I added styling and moved the elements inside a dom to achieve a clear and easily readable front-end layout. Also the video needed to be embedded and social media buttons in the footer had to be fixed (did not display the logos).
+- 21.01 - After a consultation with my mentor, I decided to add an extra section, where I included a gallery with inspirational images. I also made sure the elements on the page are correctly displayed and there is enough contrast between colours. I ran the first tests which indicated basic mistakes in HTML (fixed).
 - 23.01 - The code was approved by the W3C validator. Unfortunately my Performance score was very low, therefore I decided to optimise the images.
 
 Before:
 ![lighthouse score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/lighthouse.jpg)
 
-- 24.01 - I realised that the names for my classes are not specific enough and changed them to suit future implementations. I also reduced the amount of css written over an ID of the elements. Instead I added a class to the element, thanks to what I can use the particular css styling on other elements by attaching the particular class to this element. The pictures were still too big so I resized them. After a feedback of code review in my study group, I also added a feedback to a submit button and improved responsive design in footer (display was not correct on the mobile devices)
-- 26.01 - To make a project more correct with the standards, I had changed the css file and converted the main styling to a small size screen and applied media queries to the medium/large size screen. I also changed the format of pictures from .jpg to .webp following a suggestion of the Lighthouse report, which was supposed to improve my performance score but it did not change it much.
+- 24.01 - I realised that the names for my classes are not specific enough and changed them to suit future implementations. I also reduced the amount of css written over an ID of the elements. Instead I added a class to the element, thanks to what I can use the particular css styling on other elements by attaching the particular class to this element. The pictures were still too big so I resized them. After a code review in my study group, I also added a feedback to a submit button and improved responsive design in footer (display was not correct on the mobile devices).
+- 26.01 - To make a project more correct with the standards, I had changed the css file and converted the main styling to a small size screen, then applied media queries to the medium/large size screen. I also changed the format of pictures from .jpg to .webp following a suggestion of the Lighthouse report, which improved my performance score.
+After a consultation with my mentor I had added scroll component, debbug the form - I had not included a name attribute to specify the name of a form Element.
+- 27.01 - The last change before submitting my project was adding a discernible names to the links included in the the parafraph element to improve my accessibility score. Then once again I ran all the tests - manual and via developer tools. The results are below.
+
 
 ## Technologies used:
 - HTML5 and CSS3
@@ -96,10 +95,12 @@ Before:
 - VS code
 - Wireframe Software Balsamiq
 
-## Recourses:
-- Code Institute course materials, walktroughts and mentor support
+## Acknowledgement:
+In this place I would like to thank everyone, who added an knowledge and value to this project:
+- Code Institute course materials and walktroughts
+- lead and support of my Mentor from Code Institute
 - Code Institute Slack Community
-- Following a tutorials by Mosh and Scrimba
+- Tutorials by Mosh and Scrimba
 - W3schools
 - Stack Overflow
 - Pexels (for images)
@@ -121,16 +122,19 @@ Testing also included different devices:
 - Lenovo TAB m10
 - Samsung Galaxy Note
 - Samsung Galaxy s20
+- Motorola G10
 
 All the results are consistent.
 
 The features, which was taken into a testing:
 - check if the buttons works
 - check if images are displayed correctly
-- check if the anchor tags are opening in new tab
+- check if all the anchor tags are opening in new tab
 - check if the social media buttons are working
-- check if the submit button gives user a feedback
+- check if the submit button gives user a correct feedback
 - check if the attached video is working
+- check if the slide function is working in the carousel
+- chech if the scroll component is working correctly
 
 - W3C validator:
 ![W3C validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme%20img/w3c_validator.jpg)
