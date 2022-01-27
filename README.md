@@ -1,7 +1,7 @@
 # HTML and CSS Essentials: "FindYOU" Portfolio Project
 ## Welcome!
 
-![responsive design](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme-img/firstpic.jpg)
+![responsive design](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/firstpic.jpg?raw=true)
 
 ### This is my Portfolio 1 Project regarding the Code Institute's Diploma in Software Development (E-commerce Applications).
 It is a single page website, which contains four independent sections and the navigation bar (sticky on top of the page) designated to make all of the components easily accessible.
@@ -46,7 +46,7 @@ The content is built via 4 separated sections:
 Wireframe project was designed for a full size screen (PC) but the project is responsive and can be displayed on every device.
 See the initial project in the Balsamiq Software:
 
-![wireframe project](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme-img/balsamiq_wireframe_project1.jpg)
+![wireframe project](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/balsamiq_wireframe_project1.jpg?raw=true)
 
 ## Layout
 ### Colour range
@@ -74,14 +74,14 @@ Stages of implementation:
 - 20.01 - I added styling and moved the elements inside a dom to achieve a clear and easily readable front-end layout. Also the video needed to be embedded and social media buttons in the footer had to be fixed (did not display the logos).
 - 21.01 - After a consultation with my mentor, I decided to add an extra section, where I included a gallery with inspirational images. I also made sure the elements on the page are correctly displayed and there is enough contrast between colours. I ran the first tests which indicated basic mistakes in HTML (fixed).  / Version 3 - see below.
 
-![3 versions](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/1e7b3279cfbc3a7a571251b65001b46d8db01547/assets/images/readme-img/3version.jpg)
+![3 versions](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/3version.jpg?raw=true)
 
 - 23.01 - The code was approved by the W3C validator. Unfortunately my Performance score was very low, therefore I decided to optimise the images.
 - 24.01 - I realised that the names for my classes are not specific enough and changed them to suit future implementations. I also reduced the amount of css written over an ID of the elements. Instead I added a class to the element, thanks to what I can use the particular css styling on other elements by attaching the particular class to this element. The pictures were still too big so I resized them. After a code review in my study group, I also added a feedback to a submit button and improved responsive design in footer (display was not correct on the mobile devices).
 - 26.01 - To make a project more correct with the standards, I had changed the css file and converted the main styling to a small size screen, then applied media queries to the medium/large size screen. I also changed the format of pictures from .jpg to .webp following a suggestion of the Lighthouse report, which improved my performance score.
 
 Before:
-![lighthouse score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme-img/lighthouse.jpg)
+![lighthouse score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/lighthouse.jpg?raw=true)
 
 After a consultation with my mentor I had added scroll component, debbug the form - I had not included a name attribute to specify the name of a form Element.
 - 27.01 - The last change before submitting my project was adding a discernible names to the links included in the the parafraph element to improve my accessibsility score. Then once again I ran all the tests - manual and via developer tools. The results are below.
@@ -137,7 +137,7 @@ The features, which was taken into a testing:
 - chech if the scroll component is working correctly
 
 - W3C validator:
-![W3C validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme-img/w3c_validator.jpg)
+![W3C validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/w3c_validator.jpg?raw=true)
 
 - W3C CSS validator:
-![W3C CSS validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/c763d0ed5b1751b7fb9c2166437fea7d5971dbb0/assets/images/readme-img/w3c_css_validator.jpg)
+![W3C CSS validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/w3c_css_validator.jpg?raw=true)
