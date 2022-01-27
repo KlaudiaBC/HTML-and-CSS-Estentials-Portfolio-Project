@@ -121,9 +121,7 @@ footer a:hover {
     .carousel-item {
     height: 400px;
     }
-  }
-  
-  @media (min-width: 62em) {
+    
     .featurette-image.float-left {
     float: left !important;
     padding-right: .5rem;
