@@ -174,5 +174,5 @@ The features, which was taken into a testing:
 
 ### GT metrix:
 <p align="center">
-  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/5f53e2b75998c4b5f30ecb93ae635ffd66305590/assets/images/readme-img/gtmetrix.jpg" alt="GT metrix score>
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/5f53e2b75998c4b5f30ecb93ae635ffd66305590/assets/images/readme-img/gtmetrix.jpg" alt="GT metrix score">
 </p>
