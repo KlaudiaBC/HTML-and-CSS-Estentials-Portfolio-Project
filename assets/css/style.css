@@ -48,6 +48,7 @@ p {
 .featurette-image {
   width: 100%;
   float: none !important;
+  padding-bottom: .5rem;
 }
 
 .featurette-image img {
@@ -74,7 +75,6 @@ p {
     letter-spacing: -.05rem;
     color: rgb(206, 134, 0);
     font-family: 'Merriweather Sans', sans-serif;
-    font-display: swap;
     padding: 1rem;
     margin-top: 2rem;
   }
@@ -115,7 +115,6 @@ footer a:hover {
   
   .featurette-image {
     width: 240px;
-    float: auto;
     }
 
     .carousel-item {
