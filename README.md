@@ -1,7 +1,9 @@
 # HTML and CSS Essentials: "FindYOU" Portfolio Project
 ## Welcome!
 
-![responsive design](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/firstpic.jpg?raw=true)
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/firstpic.jpg?raw=true" alt="responsive design">
+</p>
 
 ### This is my Portfolio 1 Project regarding the Code Institute's Diploma in Software Development (E-commerce Applications).
 It is a single page website, which contains four independent sections and the navigation bar (sticky on top of the page) designated to make all of the components easily accessible.
@@ -48,7 +50,9 @@ The content is built via 4 separated sections:
 Wireframe project was designed for a desktop but the project is responsive and can be displayed on every device.
 See the initial project in the Balsamiq Software:
 
-![wireframe project](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/balsamiq_wireframe_project1.jpg?raw=true)
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/balsamiq_wireframe_project1.jpg?raw=true" alt="wireframe project">
+</p>
 
 ## Layout
 ### Colour range
@@ -58,8 +62,9 @@ Colour #123146 is a mixture of blue and grey. Those shades also have many emotio
 - dark blue is often recognized as a royal shade, often means reliable authority, loyalty and confidence
 - a horizontal rule brings a touch of light blue - calming, shooting colour, symbol of connection with a nature
 
-
-![colours](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/colors.jpg?raw=true)
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/colors.jpg?raw=true" alt="colours">
+</p>
 
 Additional colours:
 - Orange: a colour of positive energy, which is a main message of the page. It brings a light, breaks the boringness and bursts with youthfulness, energy, and happiness. Designers also believe that orange colour inspires creativity and uplift people’s moods.
@@ -79,13 +84,17 @@ Stages of implementation:
 - 20.01 - I added styling and moved the elements inside a dom to achieve a clear and easily readable front-end layout. Also the video needed to be embedded and social media buttons in the footer had to be fixed (did not display the logos).
 - 21.01 - After a consultation with my mentor, I decided to add an extra section, where I included a gallery with inspirational images. I also made sure the elements on the page are correctly displayed and there is enough contrast between colours. I ran the first tests which indicated basic mistakes in HTML (fixed).  / Version 3 - see below.
 
-![3 versions of design](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/3version.jpg?raw=true)
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/3version.jpg?raw=true" alt="3 versions of design">
+</p>
 
 - 23.01 - The code was approved by the W3C validator. Unfortunately my Performance score was very low, therefore I decided to optimise the images.
 - 24.01 - I realised that the names for my classes are not specific enough and changed them to suit future implementations. I also reduced the amount of css written over an ID of the elements. Instead I added a class to the element, thanks to which I can use the particular css styling on other elements by attaching the particular class to this element. The pictures were still too big so I resized them. After a code review in my study group, I also added a feedback to a submit button and improved responsive design in the footer (display was not correct on the mobile devices).
 - 26.01 - To make a project more correct with the standards, I had changed the css file and converted the main styling to a small size screen, then applied media queries to the medium/large size screen. I also changed the format of pictures from .jpg to .webp following a suggestion of the Lighthouse report, which improved my performance score (see below: testing).
 
-![lighthouse1](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/2d610639ac0d4b7eec05f20cc1bab11c76e4c075/assets/images/readme-img/lighthouse1.jpg?raw=true)
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/2d610639ac0d4b7eec05f20cc1bab11c76e4c075/assets/images/readme-img/lighthouse1.jpg?raw=true" alt="lighthouse1">
+</p>
 
 
 After a consultation with my mentor I had added a scrollspy component, debug the form - I had included a name attribute to specify the name of a form Element.
@@ -141,16 +150,29 @@ The features, which was taken into a testing:
 - check if the slide function in the carousel is working
 - check if the scrollspy component is working correctly
 
-- Lighthouse
-Desktop:
-![lighthouse desktop score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/2d610639ac0d4b7eec05f20cc1bab11c76e4c075/assets/images/readme-img/lighthouse_desktop.jpg?raw=true)
+### Lighthouse
+- Desktop:
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/2d610639ac0d4b7eec05f20cc1bab11c76e4c075/assets/images/readme-img/lighthouse_desktop.jpg?raw=true" alt="lighthouse desktop score">
+</p>
 
-Mobile:
-![lighthouse mobile score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/2d610639ac0d4b7eec05f20cc1bab11c76e4c075/assets/images/readme-img/lighthouse_mobile.jpg?raw=true)
+- Mobile:
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/2d610639ac0d4b7eec05f20cc1bab11c76e4c075/assets/images/readme-img/lighthouse_mobile.jpg?raw=true" alt="lighthouse mobile score">
+</p>
 
+### W3C validator:
+- HTML
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/w3c_validator.jpg?raw=true" alt="W3C validator score">
+</p>
 
-- W3C validator:
-![W3C validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/w3c_validator.jpg?raw=true)
+- CSS:
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/w3c_css_validator.jpg?raw=true" alt="W3C CSS validator score">
+</p>
 
-- W3C CSS validator:
-![W3C CSS validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/w3c_css_validator.jpg?raw=true)
+### GT metrix:
+<p align="center">
+  <img src="https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/5f53e2b75998c4b5f30ecb93ae635ffd66305590/assets/images/readme-img/gtmetrix.jpg" alt="GT metrix score>
+</p>
