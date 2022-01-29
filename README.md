@@ -79,11 +79,15 @@ Stages of implementation:
 - 20.01 - I added styling and moved the elements inside a dom to achieve a clear and easily readable front-end layout. Also the video needed to be embedded and social media buttons in the footer had to be fixed (did not display the logos).
 - 21.01 - After a consultation with my mentor, I decided to add an extra section, where I included a gallery with inspirational images. I also made sure the elements on the page are correctly displayed and there is enough contrast between colours. I ran the first tests which indicated basic mistakes in HTML (fixed).  / Version 3 - see below.
 
-![3 versions](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/3version.jpg?raw=true)
+![3 versions of design](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/3version.jpg?raw=true)
 
 - 23.01 - The code was approved by the W3C validator. Unfortunately my Performance score was very low, therefore I decided to optimise the images.
 - 24.01 - I realised that the names for my classes are not specific enough and changed them to suit future implementations. I also reduced the amount of css written over an ID of the elements. Instead I added a class to the element, thanks to what I can use the particular css styling on other elements by attaching the particular class to this element. The pictures were still too big so I resized them. After a code review in my study group, I also added a feedback to a submit button and improved responsive design in footer (display was not correct on the mobile devices).
 - 26.01 - To make a project more correct with the standards, I had changed the css file and converted the main styling to a small size screen, then applied media queries to the medium/large size screen. I also changed the format of pictures from .jpg to .webp following a suggestion of the Lighthouse report, which improved my performance score (see below: testing).
+
+![lighthouse1](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/2d610639ac0d4b7eec05f20cc1bab11c76e4c075/assets/images/readme-img/lighthouse1.jpg?raw=true)
+
+
 After a consultation with my mentor I had added scrollspy component, debbug the form - I had included a name attribute to specify the name of a form Element.
 - 27.01 - The last change before submitting my project was adding a discernible names to the links included in the the parafraph element to improve my accessibsility score. Then once again I ran all the tests - manual and via developer tools. The results are below.
 
@@ -139,8 +143,11 @@ The features, which was taken into a testing:
 
 - Lighthouse
 Desktop:
+![lighthouse desktop score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/2d610639ac0d4b7eec05f20cc1bab11c76e4c075/assets/images/readme-img/lighthouse_desktop.jpg?raw=true)
 
 Mobile:
+![lighthouse mobile score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/2d610639ac0d4b7eec05f20cc1bab11c76e4c075/assets/images/readme-img/lighthouse_mobile.jpg?raw=true)
+
 
 - W3C validator:
 ![W3C validator score](https://github.com/KlaudiaBC/HTML-and-CSS-Estentials-Portfolio-Project/blob/a3dae41511896d59bd79bbfa2378a1048313fcd4/assets/images/readme-img/w3c_validator.jpg?raw=true)
